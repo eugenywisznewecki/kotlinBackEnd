@@ -1,4 +1,4 @@
-package bel.ink.kotlinback.restful
+package bel.ink.kotlindemoback.restful
 
 import org.glassfish.jersey.server.ResourceConfig
 import org.springframework.stereotype.Component
@@ -7,8 +7,6 @@ import org.springframework.stereotype.Component
 open class JerseyConfig: ResourceConfig {
 
     constructor(){
-
-
         packages(JerseyConfig::class.java.`package`.name)
     }
 
